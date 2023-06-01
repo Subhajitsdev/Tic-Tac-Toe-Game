@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+   
+  
+      <title>Tic Tac Toe</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+      <h1>Tic Tac Toe</h1>
+      <div class="game">
+        <div class="row">
+          <div class="cell" onclick="makeMove(0, 0)"></div>
+          <div class="cell" onclick="makeMove(0, 1)"></div>
+          <div class="cell" onclick="makeMove(0, 2)"></div>
+        </div>
+        <div class="row">
+          <div class="cell" onclick="makeMove(1, 0)"></div>
+          <div class="cell" onclick="makeMove(1, 1)"></div>
+          <div class="cell" onclick="makeMove(1, 2)"></div>
+        </div>
+        <div class="row">
+          <div class="cell" onclick="makeMove(2, 0)"></div>
+          <div class="cell" onclick="makeMove(2, 1)"></div>
+          <div class="cell" onclick="makeMove(2, 2)"></div>
+        </div>
+      </div>
+      <div id="message" class="message"></div>
+      <button onclick="resetGame()">Reset</button>
+      <script src="script.js"></script>
+    </body>
+    </html>
+    
